@@ -1,5 +1,6 @@
 import os
 import yaml
+from typing import Union
 from random import sample
 
 
@@ -19,7 +20,7 @@ def get_endpoints() -> list[str]:
     return endpoints
 
 
-def get_images(endpoint: str, amount: int, tags: list[str] = None) -> list[dict] | dict:
+def get_images(endpoint: str, amount: int, tags: list[str] = None) -> Union[list[dict], dict]:
     file = _open_yml(endpoint)
 
     if tags:
