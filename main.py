@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from utils.data import get_endpoints, get_images, get_tag_list
+from utils.functions import get_endpoints, get_images, get_tag_list
 
 
 app = FastAPI()
