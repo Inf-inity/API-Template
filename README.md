@@ -1,6 +1,6 @@
 # API-Template
 
-An API-template for pictures, written in pythonm
+An API-template for pictures, written in python
 
 
 ## Install the API:
