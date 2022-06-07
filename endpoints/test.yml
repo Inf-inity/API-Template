@@ -1,0 +1,11 @@
+1:
+  artist_name: test1
+  artist_href: test1
+  img_url: test1
+  tags: [t11, t12, t13]
+
+2:
+  artist_name: test2
+  artist_href: test2
+  img_url: test2
+  tags: []
