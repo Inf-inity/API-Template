@@ -9,7 +9,7 @@ An API-template for pictures, written in python
 
 - git
 - virtualenv
-- Python 3.10+
+- Python 3.9
 
 
 #### HTTPS:
