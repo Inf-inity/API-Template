@@ -5,6 +5,12 @@ An API-template for pictures, written in python
 
 ## Install the API:
 
+### Requirements
+
+- git
+- virtualenv
+- Python 3.10+
+
 
 #### HTTPS:
 
