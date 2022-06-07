@@ -1,0 +1,5 @@
+key:
+  artist_name: <name>
+  artist_href: <url for the artist profile>
+  image_url: <url for the picture>
+  tags: ["list", "with", "tags"]

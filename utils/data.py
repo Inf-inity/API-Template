@@ -13,7 +13,7 @@ def _open_yml(name: str) -> list[dict]:
 def get_endpoints() -> list[str]:
     endpoints: list[str] = []
     for file in os.listdir("./endpoints"):
-        if file[-4:] == ".yml":
+        if file[-4:] == ".yml" and not str(file) == "template.yml":
             endpoints.append(file[:-4])
 
     return endpoints
